@@ -9,8 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "localforage": "^1.10.0",
     "primeicons": "^6.0.1",
     "primevue": "^3.22.3",
+    "shrink-string": "^3.1.4",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
