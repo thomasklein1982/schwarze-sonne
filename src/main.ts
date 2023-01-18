@@ -8,9 +8,10 @@ import { items } from './classes/Item';
 import { weapons } from './classes/Weapon';
 import { specialItems } from './classes/SpecialItem';
 import { clothes } from './classes/Clothing';
-import 'primevue/resources/themes/vela-orange/theme.css';
 import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';
+import 'primevue/resources/themes/bootstrap4-dark-blue/theme.css';
+//import 'primevue/resources/themes/saga-blue/theme.css';
 import {createRouter,createWebHistory} from 'vue-router';
 
 const app=createApp(App);
@@ -19,22 +20,23 @@ app.use(createRouter({routes: [], history: createWebHistory()}));
 app.mount('#app');
 app.component('Button',Button);
 
-for(let a of abilities){
-  console.log(a);
-}
+// for(let a of abilities){
+//   console.log(a);
+// }
 
-for(let i of items){
-  console.log(i);
-}
+// for(let i of items){
+//   console.log(i);
+// }
 
-for(let w of weapons){
-  console.log(w);
-}
+// for(let w of weapons){
+//   console.log(w);
+// }
 
-for(let s of specialItems){
-  console.log(s);
-}
+// for(let s of specialItems){
+//   console.log(s);
+// }
 
-for (const c of clothes) {
-  console.log(c);
-}
+// for (const c of clothes) {
+//   console.log(c);
+// }
+
